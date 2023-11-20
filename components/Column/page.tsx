@@ -47,9 +47,9 @@ const Column = ({ id, todos, index }: Props) => {
                   snapshot.isDraggingOver ? "bg-blue-500" : "bg-slate-500/20"
                 }`}
               >
-                <h2 className="flex justify-between font-bold text-xl p-2">
+                <h2 className="flex justify-between font-bold text-slate-100 text-xl p-2">
                   {idToColumnText[id]}
-                  <span className="text-gray-500 bg-gray-200 rounded-full px-2 py-1 text-sm font-normal">
+                  <span className="text-black bg-purple-400 border-2 rounded-lg px-2 py-1 text-sm font-normal">
                     {!searchString
                       ? todos.length
                       : todos.filter((todo) =>
