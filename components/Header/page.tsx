@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import Logo from "@/Images/logo.png";
+import Logo from "@/Images/Logo.png";
 import { MagnifyingGlassIcon } from "@heroicons/react/20/solid";
 import { UserCircleIcon } from "@heroicons/react/24/outline";
 import { useTaskStore } from "@/store/TaskStore";
