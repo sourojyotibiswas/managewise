@@ -39,6 +39,17 @@ const Header = () => {
           <span className="text-3xl font-bold drop-shadow-xl text-yellow-50">
             anage Wise
           </span>
+          <div className="ml-4">
+            <span className="text-base text-white">
+              made by{" "}
+              <a
+                href="https://www.linkedin.com/in/sourojyotibiswas/"
+                className="text-blue-400 hover:underline"
+              >
+                souro
+              </a>
+            </span>
+          </div>
         </div>
         <form className="border rounded flex justify-center items-center md: flex-initial bg-white">
           <input
